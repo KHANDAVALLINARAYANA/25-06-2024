@@ -1,0 +1,349 @@
+public class alphabetdig {
+
+	public static void main(String[] args) {
+		char a=' ';
+		if(a>='a'&&a<='z'||a>='A'&& a<='Z')
+			System.out.println("alpha");
+		else if(a>='0'&&a<='9')
+			System.out.println("number");
+		else
+			System.out.println("special character"); 
+		
+	}
+
+}
+---------------------------------------------------------------------
+public class character {
+
+	public static void main(String[] args) {
+	char a='k';
+			if(a>='a'&&a<='z'||a>='A'&& a<='Z')
+				System.out.println(" it is acharacter");
+			else
+				System.out.println("not charscter");
+
+	}
+
+}
+--------------------------------------------------------------------------
+public class divisble {
+
+	public static void main(String[] args) {
+	int a=35;
+	if(a%5==0)
+		if(a%11==0)
+			System.out.println("dividble");
+		else
+			System.out.println("not dividble");
+
+	}
+
+}
+-----------------------------------------------------------------------------
+public class division {
+
+	public static void main(String[] args) {
+		int per=45;
+		if(per>=90)
+			System.out.println("divison a");
+		else if(per>=70)
+			System.out.println("divison b");
+		else if(per>=35)
+			System.out.println("divison c");
+		else
+			System.out.println("pass the exam");
+	}
+	}
+
+---------------------------------------------------------------------------------------
+public class equlilatral {
+
+	public static void main(String[] args) {
+		int a=60,b=60,c=60;
+		if(a+b+c==180)
+			if(a==b&&c==b)
+			System.out.println("equillateral");
+		else if((a==b||c==b))
+			 System.out.println("isosceles");
+		else if(a!=b&&a!=c)
+			System.out.println("scalence ");
+		else
+			System.out.println("not triangle");
+	}
+	
+}
+----------------------------------------------------------------------------------------
+public class evenodd {
+
+	public static void main(String[] args) {
+	int a=25;
+	if(a%2==0)
+		System.out.println("even");
+	else
+		System.out.println("odd");
+	}
+
+}
+--------------------------------------------------------------------------------------------
+public class insaure {
+
+	public static void main(String[] args) {
+    char a='m';
+    int age=99;
+    char b='b';
+    if(a=='m') {
+    	System.out.println("married");
+	if(b=='b'&&age>30) 
+		System.out.println("insure clami");
+	if(b=='g'&&age>20)
+		System.out.println("insure clami");
+	else if (b!='b'&&age>=30||b='g'&&age!=(age>=20))
+		System.out.println("not clami");}
+	else
+		System.out.println("not married aunty lover harish ");
+	}
+
+}
+----------------------------------------------------------------------------------------------
+public class leapyear {
+
+	public static void main(String[] args) {
+		int year=2100;
+		if(year%4==0 && year%400==0||year%100!=0 )
+			
+				  System.out.println("leap year");
+	
+		else
+			System.out.println("not leap year");
+		
+					
+				
+			  
+				
+			
+	}
+
+}
+------------------------------------------------------------------------------------------------
+public class month {
+
+	public static void main(String[] args) {
+		int a=4;
+		if(a==1)
+			System.out.println("jan");
+		else if(a==2)
+			System.out.println("feb");
+		else if(a==3)
+	
+			System.out.println("march");
+		else if(a==4)
+			System.out.println("april");
+		else if(a==5)
+			System.out.println("may");
+		else if(a==6)
+			System.out.println("june");
+		else if(a==7)
+			System.out.println("july");
+		else if(a==8)
+			System.out.println("august");
+		else if(a==9)
+			System.out.println("sepmber");
+		else if(a==10)
+			System.out.println("oct");
+		else if(a==11)
+			System.out.println("novomber");
+		else if(a==12)
+			System.out.println("dec");
+		else
+			System.out.println("enter the number 1 to 12");
+
+	}
+
+}
+----------------------------------------------------------------------------------------------------
+public class notes {
+
+	public static void main(String[] args) {
+		int amout=885,m=0;
+		if(amout>=500)
+		m=amout/500;
+			System.out.println("500 notes:"+ m);
+		amout=amout%500;
+		if(amout>=200)
+			m=amout/200;
+				System.out.println("200 notes:"+ m);
+			amout=amout%200;
+			if(amout>=100)
+				m=amout/100;
+					System.out.println("100 notes:"+ m);
+				amout=amout%100;
+				if(amout>=50)
+					m=amout/50;
+						System.out.println("50 notes:"+ m);
+					amout=amout%50;
+					if(amout>=20)
+						m=amout/20;
+							System.out.println("20 notes:"+ m);
+						amout=amout%20;
+						if(amout>=10)
+							m=amout/10;
+								System.out.println("10 notes:"+ m);
+							amout=amout%10;
+	}
+
+}
+----------------------------------------------------------------------------------------------------
+public class percentage {
+
+	public static void main(String[] args) {
+		int per=245;
+		if(per>=90)
+			System.out.println("grade a");
+		else if(per>=70)
+			System.out.println("grade b");
+		else if(per>=35)
+			System.out.println("grade c");
+		else
+			System.out.println("fail");
+	}
+
+}
+-------------------------------------------------------------------------------------------------
+public class positive {
+
+	public static void main(String[] args) {
+		int a=0;
+		if(a>0)
+			System.out.println("positive");
+		else if(a==0)
+			System.out.println("zero");
+		else 
+			System.out.println("negative");
+	}
+
+}
+--------------------------------------------------------------------------------------------------
+public class profitloss {
+
+	public static void main(String[] args) {
+		int invest=100 ,total=100;
+		if(invest<total)
+			System.out.println("profit");
+		else
+			System.out.println("loss1"); 
+
+	}
+
+}
+------------------------------------------------------------------------------------------------
+public class salary {
+
+	public static void main(String[] args) {
+		int a=2;
+		if(4<=a)
+			System.out.println("2500 b0uns");
+		else if(1<=a)
+			System.out.println("1000bouns");
+		else
+			System.out.println("no bouns");
+
+	}
+
+}
+---------------------------------------------------------------------------------------------
+public class three {
+
+	public static void main(String[] args) {
+	int a=26666,b=83,c=488888;
+	if(a>b&&a>c)
+		System.out.println("ais big");
+	else if(b>c)
+		System.out.println("b is big");
+	else
+		System.out.println("c is big");
+
+	}
+
+}
+-----------------------------------------------------------------------------------------------
+public class triangle {
+
+	public static void main(String[] args) {
+	int s1=60,s2=60,s3=60;
+	
+if(s1+s2+s3==180)
+	System.out.println("it triangle");
+else
+	System.out.println("not trianle");
+	
+	}
+
+}
+---------------------------------------------------------------------------------------------
+public class twonumber {
+
+	public static void main(String[] args) {
+    int a=2,b=5;
+    if(a>b)
+    System.out.println("a is big:");
+    else
+    	System.out.println("b is big");
+	}
+
+}
+----------------------------------------------------------------------------------------------
+
+public class upperlower {
+
+	public static void main(String[] args) {
+		char a='a';
+		if(a>='A'&& a<='Z')
+			System.out.println("UPPER CASE");
+		else
+			System.out.println("lower case");
+				
+	}
+
+}
+------------------------------------------------------------------------------------------------
+public class vowel {
+
+	public static void main(String[] args) {
+		char a='A';
+		if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u'||a=='A'||a=='E'||a=='I'||a=='O'||a=='U')
+			System.out.println("vowel");
+		else if(a>='a'&&a<='z'||a>='A'&&a<='Z')
+			System.out.println("conast");
+		else
+			System.out.println("check");
+
+	}
+
+}
+---------------------------------------------------------------------------------------------------
+public class week {
+
+	public static void main(String[] args) {
+		int a=4;
+		if(a==1)
+			System.out.println("monday");
+		else if(a==2)
+			System.out.println("tuesday");
+		else if(a==3)
+	
+			System.out.println("wednesday");
+		else if(a==4)
+			System.out.println("thursday");
+		else if(a==5)
+			System.out.println("friday");
+		else if(a==6)
+			System.out.println("saturday");
+		else if(a==7)
+			System.out.println("sunday");
+		else
+			System.out.println("enter the number 1 to 7");
+
+	}
+
+}
+----------------------------------------------------------------------------------------------------
